@@ -1,10 +1,3 @@
-# AstraTradeX: Operator
-Web Based Operator for the AstraTradeX Platform
-
-## Dev-Setup:
-1. Install Requirements: `npm install`
-2. Run: `npm run dev`
-
 # AIFPN: All India Food Processing Nigam
 
 As per the Policy On Collaborative Application Development by Opening the Source Code of Government Applications.
@@ -23,5 +16,5 @@ All commands are run from the root of the project, from a terminal:
 | :---------------- | :------------------------------------------- |
 | `npm install`     | Installs dependencies                        |
 | `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+| `npm run build`   | Build production site to `./dist/`           |
+| `npm run deploy`  | Deploy the production site                   |
