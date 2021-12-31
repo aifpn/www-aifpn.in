@@ -9,7 +9,7 @@
 </script>
 
 <script lang="ts">
-    // import <TW_CSS>: For Dev
+    import "../styles/tailwind.postcss";
 
     import { derived } from "svelte/store";
     import { blur } from "svelte/transition";
