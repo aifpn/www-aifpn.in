@@ -1,4 +1,4 @@
-const timestamp = 1640949267143;
+const timestamp = 1640949466159;
 const build = [
   "/_app/start-9087b7de.js",
   "/_app/assets/start-464e9d0a.css",
@@ -14,6 +14,7 @@ const build = [
 const files = [
   "/.nojekyll",
   "/apple-touch-icon.png",
+  "/CNAME",
   "/favicon-16x16.png",
   "/favicon-32x32.png",
   "/favicon.ico",
