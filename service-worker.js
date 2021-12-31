@@ -1,15 +1,15 @@
-const timestamp = 1640851230422;
+const timestamp = 1640949093214;
 const build = [
-  "/_app/start-8cc54c3b.js",
+  "/_app/start-9087b7de.js",
   "/_app/assets/start-464e9d0a.css",
-  "/_app/pages/__layout.svelte-f19e793e.js",
-  "/_app/pages/__error.svelte-987e5815.js",
-  "/_app/pages/index.svelte-4a042b68.js",
-  "/_app/pages/gallery.svelte-c59adf24.js",
-  "/_app/pages/about.svelte-9b01ab01.js",
-  "/_app/chunks/vendor-9e861a44.js",
-  "/_app/chunks/config-9f733ca2.js",
-  "/_app/chunks/Meta-0e751676.js"
+  "/_app/pages/__layout.svelte-8b03f4af.js",
+  "/_app/pages/__error.svelte-adb89dbf.js",
+  "/_app/pages/index.svelte-c3bfd87e.js",
+  "/_app/pages/gallery.svelte-733171db.js",
+  "/_app/pages/about.svelte-51464948.js",
+  "/_app/chunks/vendor-307b7864.js",
+  "/_app/chunks/config-6c2cbd12.js",
+  "/_app/chunks/Meta-a674a707.js"
 ];
 const files = [
   "/.nojekyll",
@@ -26,6 +26,7 @@ const files = [
   "/images/img-4.jpeg",
   "/images/img-5.jpeg",
   "/images/img-6.jpeg",
+  "/images/mr-surendra-pal.jpg",
   "/logo-2.png",
   "/logo.png",
   "/robots.txt",
