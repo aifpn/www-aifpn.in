@@ -13,7 +13,8 @@
             history_title: string;
             history_content: string;
             objectives_title: string;
-            objectives_content: string[];
+            objectives_content: string;
+            objectives_points: string[];
             key_persons_title: string;
             key_persons_details: {
                 name: string;
@@ -24,12 +25,17 @@
             page_title: "About Us",
             history_title: "History:",
             history_content:
-                "All India Food Processing Nigam is a PSU dealing in the processing of food material. It was incorporated on 8th of Sep. 2021",
+                "All India Food Processing Nigam is a Public Sector Undertaking (PSU) dealing in the processing of food material. In order to ensure food safety and processing in India, it buys food grains and distributes them in the market by packaging them. It was incorporated on 8th of Sep. 2021",
             objectives_title: "Objectives:",
-            objectives_content: [
-                "We aim to provide best in class processing facilities.",
-                "Provide Faster Packaging and Delivery.",
-                "Our goal is to help in the growth of farmers of our country.",
+            objectives_content:
+                "A strong and progressive food processing sector, reducing wastage of perishable agricultural produce, increasing shelf life of food products, ensuring value addition to agricultural produce, diversification and commercialization of agriculture, employment generation, increasing farmers' income and plays an important role in generating surplus for export of agricultural and processed foods. In the era of economic liberalization, all sectors including private, public and cooperative sectors have to play prescribed roles and All India Food Processing Corporation is also doing its work in the field of food processing. Aiming to make food processing a developing initiative, the All India Food Processing Corporation has a vision to achieve these objectives by facilitating the process and acting as a catalyst to distribute quality food items from within India and abroad as well. There is a clear goal. With these overall objectives, All India Food Processing Corporation aims to :-",
+            objectives_points: [
+                "Increase in income of farmers by better utilization and value addition of agricultural produce.",
+                "Minimizing wastage at all levels of the food processing chain by developing infrastructure for the storage, transportation and processing of agricultural food produce.",
+                "Processing of food from both domestic and external sources Bringing modern technology to the food processing industry.",
+                "To encourage R&D in food processing for product and process development and packing advancement.",
+                "Policy support for the growth of this sector, assistance for creation of infrastructure, capacity expansion/upgradation and other collaborative measures.",
+                "Promotion of export of processed food products.",
             ],
             key_persons_title: "Key Persons:",
             key_persons_details: [
@@ -46,12 +52,17 @@
                 strings.page_title = "संस्था के बारे में";
                 strings.history_title = "इतिहास:";
                 strings.history_content =
-                    "अखिल भारतीय खाद्य प्रसंस्करण निगम एक सार्वजनिक उपक्रम है जो खाद्य सामग्री के प्रसंस्करण में काम करता है। इसे 8 सितंबर 2021 को शामिल किया गया था।";
+                    "अखिल भारतीय खाद्य प्रसंस्करण निगम एक सार्वजनिक उपक्रम है जो खाद्य सामग्री के प्रसंस्करण में काम करता है। भारत में खाद्य सुरक्षा तथा प्रसंस्करण को सुनिश्चित करने हेतु यह खाद्यान्नों का क्रय करके उन्हें पैकेजिंग करके बाजार में वितरित करता है। इसे 8 सितंबर 2021 को शामिल किया गया था।";
                 strings.objectives_title = "उद्देश्य:";
-                strings.objectives_content = [
-                    "हमारा लक्ष्य श्रेणी प्रसंस्करण सुविधाओं में सर्वश्रेष्ठ प्रदान करना है।",
-                    "तेजी से पैकेजिंग और वितरण प्रदान करें।",
-                    "हमारा लक्ष्य हमारे देश के किसानों के विकास में मदद करना है।",
+                strings.objectives_content =
+                    "एक सुदृढ़ एवं प्रगतिशील खाद्य प्रसंस्करण क्षेत्र, शीघ्र खराब होने वाली कृषि उपज की बर्बादी में उपज लाने, खाद्य उत्पादों की शैल्फ लाईफ को बढ़ाने, कृषि उपज का मूल्यवर्धन सुनिश्चित करने, कृषि के विविधिकरण एवं वाणिज्यिकरण, रोजगार के सृजन, किसानों की आय में वृद्धि तथा कृषि एवं प्रसंस्कृत खाद्य पदार्थों के निर्यात हेतु अधिशेष के सृजन में महत्वपूर्ण भूमिका निभाता है। आर्थिक उदारीकरण के युग में निजी, सार्वजनिक तथा सहकारी क्षेत्रों समेत सभी क्षेत्रों को निर्धारित भूमिकाएं अदा करनी होती है और अखिल भारतीय खाद्य प्रसंस्करण निगम भी खाद्य प्रसंस्करण के क्षेत्र में भी अपना कार्य कर रहा है। खाद्य प्रसंस्करण को एक विकासशील पहल बनाने के उद्देश्य से अखिल भारतीय खाद्य प्रसंस्करण निगम के समक्षभारत के अन्दर से और विदेश में भी गुणवत्तायुक्त खाद्य सामग्री वितरित  करने के लिए प्रक्रिया को सुविधाजनक बनाने तथा उत्प्रेरक के रूप में कार्य करते हुए इन उद्देश्यों को प्राप्त करने  का एक स्पष्ट लक्ष्य है। इन समग्र उद्देश्यों के साथ अखिल भारतीय खाद्य प्रसंस्करण निगम का लक्ष्य है कि :-";
+                strings.objectives_points = [
+                    "कृषि उपज के बेहतर उपयोग तथा मूल्यवर्धन द्वारा किसानों की आय में बढ़ोतरी।",
+                    "कृषि खाद्य उपज के भंडारण, परिवहन तथा प्रसंस्करण हेतु अवसंरचना के विकास द्वार खाद्य प्रसंस्करण श्रंखला के सभी स्तरों पर बर्बादी को न्यूनतम रखना।",
+                    "घरेलू एवं बाहरी दोनों स्रोतों से खाद्य से प्रसंस्करण खाद्य प्रसंस्करण उद्योग में आधुनिक प्रौद्योगिकी लाना।",
+                    "उत्पाद एवं प्रक्रिया विकास तथा उन्नति पैकिंग के लिए खाद्य प्रसंस्करण में अनुसंधान एवं विकास को प्रोत्साहित करना।",
+                    "इस क्षेत्र की वृद्धि से नीतिगत सहायता, अवसंरचना के सृजन हेतु सहायता,  क्षमता विस्तार/उन्नयन तथा अन्य सहयोगात्मक उपाय करना।",
+                    "प्रसंस्कृत खाद्य उत्पादों के निर्यात का संवर्धन करना।",
                 ];
                 strings.key_persons_title = "प्रमुख व्यक्ति:";
                 strings.key_persons_details = [
@@ -80,8 +91,9 @@
 
 <section id="objectives" class="my-4 w-3/4 flex flex-col">
     <span class="my-2 text-2xl font-bold text-gray-600">{$i18n.objectives_title}</span>
+    <p class="my-2">{$i18n.objectives_content}</p>
     <ol>
-        {#each $i18n.objectives_content as item, idx}
+        {#each $i18n.objectives_points as item, idx}
             <li>{idx + 1}. {item}</li>
         {/each}
     </ol>
