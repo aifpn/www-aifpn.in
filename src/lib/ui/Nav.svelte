@@ -14,4 +14,5 @@
         href="/gallery"
         styles="{`px-4 py-2 ${path.startsWith('/gallery') ? '' : 'bg-blue-500 border-2 border-white'}`}">Gallery</Link
     >
+    <Link href="https://bpf.aifpn.in" styles="px-4 py-2 bg-blue-500 border-2 border-white">BPF</Link>
 </nav>
