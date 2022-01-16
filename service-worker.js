@@ -1,15 +1,15 @@
-const timestamp = 1641744038967;
+const timestamp = 1642372266097;
 const build = [
-  "/_app/start-7186289b.js",
+  "/_app/start-0b1a3b44.js",
   "/_app/assets/start-464e9d0a.css",
-  "/_app/pages/__layout.svelte-c4158c9a.js",
-  "/_app/pages/__error.svelte-adb89dbf.js",
-  "/_app/pages/index.svelte-c3bfd87e.js",
-  "/_app/pages/gallery.svelte-9ceff49a.js",
-  "/_app/pages/about.svelte-cb7bdcf6.js",
-  "/_app/chunks/vendor-307b7864.js",
-  "/_app/chunks/config-6c2cbd12.js",
-  "/_app/chunks/Meta-a674a707.js"
+  "/_app/pages/__layout.svelte-b73fff88.js",
+  "/_app/pages/__error.svelte-02755dcc.js",
+  "/_app/pages/index.svelte-5eaea327.js",
+  "/_app/pages/gallery.svelte-a8b03695.js",
+  "/_app/pages/about.svelte-d17dcd99.js",
+  "/_app/chunks/vendor-64dcd3b2.js",
+  "/_app/chunks/locale-4dcc8528.js",
+  "/_app/chunks/Meta-6a2cfcbd.js"
 ];
 const files = [
   "/.nojekyll",
@@ -27,8 +27,8 @@ const files = [
   "/images/img-4.jpeg",
   "/images/img-5.jpeg",
   "/images/img-6.jpeg",
+  "/images/mr-surendra-pal-2.jpeg",
   "/images/mr-surendra-pal.jpeg",
-  "/images/mr-surendra-pal.jpg",
   "/logo-2.png",
   "/logo.png",
   "/robots.txt",
