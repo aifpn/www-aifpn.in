@@ -23,7 +23,16 @@
     });
 
     const metaData: Partial<IMeta> = {
+        url: "/gallery",
         title: $i18n.page_title,
+        keywords: [
+            "aifpn gallery",
+            "एआईएफपीएन गैलरी",
+            "all india food processing nigam gallery",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम गैलरी",
+            "photos of all india food processing nigam",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम की तस्वीरें",
+        ],
     };
 </script>
 

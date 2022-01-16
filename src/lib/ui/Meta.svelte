@@ -28,18 +28,27 @@
     });
 
     metaData = {
-        description: metaData.description || $i18n.page_description,
-        keywords: ["aifpn", "food processing", "nigam", "indian food processing nigam"],
+        url: "/",
+        keywords: [],
+        robots: "index,follow",
+        sitemapUrl: "/sitemap.xml",
         ...metaData,
         title: `${metaData.title || ""}${metaData.title && " - "}${$i18n.page_title}`,
+        description: metaData.description || $i18n.page_description,
     };
 
     metaData = {
         ...metaData,
-        robots: "index,follow",
+        keywords: [
+            ...metaData.keywords,
+            "aifpn",
+            "all india food processing nigam",
+            "all india food processing corporation",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम",
+        ],
         openGraph: {
             ...metaData.openGraph,
-            url: `${cfg.base_url}${metaData.url}/`,
+            url: `${cfg.base_url}${metaData.url}`,
             title: metaData.title,
             description: metaData.description,
             locale: `${$locale}_IN`,
@@ -85,6 +94,15 @@
     <meta name="robots" content="{metaData.robots}" />
     <meta name="googlebot" content="{metaData.robots}" />
 
+    {#if metaData && metaData.title && metaData.sitemapUrl}
+        <link
+            rel="sitemap"
+            type="application/xml"
+            title="{`${$i18n.page_title} - Sitemap`}"
+            href="{metaData.sitemapUrl}"
+        />
+    {/if}
+
     {#if metaData && metaData.title}
         <title>{metaData.title}</title>
         <meta name="title" content="{metaData.title}" />
@@ -99,7 +117,7 @@
     {/if}
 
     {#if metaData && metaData.url && cfg.base_url}
-        <link rel="canonical" href="{`${cfg.base_url}${metaData.url}/`}" />
+        <link rel="canonical" href="{`${cfg.base_url}${metaData.url}`}" />
     {/if}
 
     {#if metaData && metaData.twitter}

@@ -78,7 +78,24 @@
     });
 
     const metaData: Partial<IMeta> = {
+        url: "/about",
         title: $i18n.page_title,
+        keywords: [
+            "about aifpn",
+            "एआईएफपीएन के बारे में",
+            "aifpn history",
+            "एआईएफपीएन का इतिहास",
+            "aifpn objectives",
+            "एआईएफपीएन के उद्देश्य",
+            "aifpn key persons",
+            "एआईएफपीएन के प्रमुख व्यक्ति",
+            "history of all india food processing nigam",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम का इतिहास",
+            "objectives of all india food processing nigam",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम के उद्देश्य",
+            "key persons of all india food processing nigam",
+            "अखिल भारतीय खाद्य प्रसंस्करण निगम के प्रमुख व्यक्ति",
+        ],
     };
 </script>
 
