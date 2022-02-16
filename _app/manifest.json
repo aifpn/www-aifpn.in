@@ -1,0 +1,230 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-cdfbc670.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_paths-4b3c6e7e.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/[locale]/__layout.svelte",
+      "src/routes/[locale]/__error.svelte",
+      "src/routes/[locale]/index.svelte",
+      "src/routes/[locale]/food-processing.svelte",
+      "src/routes/[locale]/gallery.svelte",
+      "src/routes/[locale]/about/index.svelte",
+      "src/routes/[locale]/about/key-persons.svelte",
+      "src/routes/[locale]/about/importance.svelte",
+      "src/routes/[locale]/about/objectives.svelte",
+      "src/routes/[locale]/about/history.svelte",
+      "src/routes/[locale]/[...no_route].svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-7aff71e6.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_navigation-bd39ff07.js",
+      "_stores-6a897e73.js",
+      "_i18n-e38fe164.js",
+      "_singletons-a6a7384f.js",
+      "_paths-4b3c6e7e.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-4931a945.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-6bd26805.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js"
+    ]
+  },
+  "src/routes/[locale]/__layout.svelte": {
+    "file": "pages/_locale_/__layout.svelte-0c057fc1.js",
+    "src": "src/routes/[locale]/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_i18n-e38fe164.js",
+      "_paths-4b3c6e7e.js"
+    ]
+  },
+  "src/routes/[locale]/__error.svelte": {
+    "file": "pages/_locale_/__error.svelte-aeaa3d69.js",
+    "src": "src/routes/[locale]/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_Meta-5a44dde1.js",
+      "_config-9b6411d1.js"
+    ]
+  },
+  "src/routes/[locale]/index.svelte": {
+    "file": "pages/_locale_/index.svelte-85009c5c.js",
+    "src": "src/routes/[locale]/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/food-processing.svelte": {
+    "file": "pages/_locale_/food-processing.svelte-6d4cfdde.js",
+    "src": "src/routes/[locale]/food-processing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/gallery.svelte": {
+    "file": "pages/_locale_/gallery.svelte-5775e742.js",
+    "src": "src/routes/[locale]/gallery.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/about/index.svelte": {
+    "file": "pages/_locale_/about/index.svelte-ef57623b.js",
+    "src": "src/routes/[locale]/about/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_navigation-bd39ff07.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_singletons-a6a7384f.js"
+    ]
+  },
+  "src/routes/[locale]/about/key-persons.svelte": {
+    "file": "pages/_locale_/about/key-persons.svelte-f9a385a2.js",
+    "src": "src/routes/[locale]/about/key-persons.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/about/importance.svelte": {
+    "file": "pages/_locale_/about/importance.svelte-2eb33367.js",
+    "src": "src/routes/[locale]/about/importance.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/about/objectives.svelte": {
+    "file": "pages/_locale_/about/objectives.svelte-f6959cd5.js",
+    "src": "src/routes/[locale]/about/objectives.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/about/history.svelte": {
+    "file": "pages/_locale_/about/history.svelte-30e204ff.js",
+    "src": "src/routes/[locale]/about/history.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js",
+      "_Meta-5a44dde1.js"
+    ]
+  },
+  "src/routes/[locale]/[...no_route].svelte": {
+    "file": "pages/_locale_/_...no_route_.svelte-7b71e724.js",
+    "src": "src/routes/[locale]/[...no_route].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e664f212.js"
+    ]
+  },
+  "_vendor-e664f212.js": {
+    "file": "chunks/vendor-e664f212.js"
+  },
+  "_paths-4b3c6e7e.js": {
+    "file": "chunks/paths-4b3c6e7e.js"
+  },
+  "_singletons-a6a7384f.js": {
+    "file": "chunks/singletons-a6a7384f.js"
+  },
+  "_navigation-bd39ff07.js": {
+    "file": "chunks/navigation-bd39ff07.js",
+    "imports": [
+      "_singletons-a6a7384f.js"
+    ]
+  },
+  "_stores-6a897e73.js": {
+    "file": "chunks/stores-6a897e73.js",
+    "imports": [
+      "_vendor-e664f212.js"
+    ]
+  },
+  "_i18n-e38fe164.js": {
+    "file": "chunks/i18n-e38fe164.js",
+    "imports": [
+      "_vendor-e664f212.js",
+      "_paths-4b3c6e7e.js"
+    ]
+  },
+  "_config-9b6411d1.js": {
+    "file": "chunks/config-9b6411d1.js"
+  },
+  "_Meta-5a44dde1.js": {
+    "file": "chunks/Meta-5a44dde1.js",
+    "imports": [
+      "_vendor-e664f212.js",
+      "_stores-6a897e73.js",
+      "_config-9b6411d1.js"
+    ]
+  }
+}
