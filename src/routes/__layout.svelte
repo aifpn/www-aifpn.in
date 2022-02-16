@@ -1,5 +1,5 @@
 <script lang="ts">
-    import "../styles/tailwind.postcss";
+    // import <TW_CSS>: For Dev
 
     import { onDestroy, onMount } from "svelte";
 
