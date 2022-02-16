@@ -2,13 +2,36 @@
 
 import { cfg } from "$lib/config";
 
-export async function get() {
+export async function get({ params }) {
     let urls = "";
 
-    for (const locale of ["en", "hi"]) {
+    for (const route of [
+        "",
+        "/about/history",
+        "/about/importance",
+        "/about/objectives",
+        "/about/key-persons",
+        "/food-processing",
+        "/gallery",
+    ]) {
+        let data = "";
+
+        for (const locale of ["en", "hi"]) {
+            if (params.locale === locale) {
+                data += `
+                <loc>${cfg.base_url}/${locale}${route}</loc>`;
+            } else {
+                data += `
+                <xhtml:link
+                    rel="alternate"
+                    hreflang="${locale}"
+                    href="${cfg.base_url}/${locale}${route}"/>`;
+            }
+        }
+
         urls += `
             <url>
-                <loc>${cfg.base_url}/${locale}/sitemap.xml</loc>
+                ${data}
                 <changefreq>daily</changefreq>
                 <priority>0.7</priority>
             </url>`;

@@ -1,24 +1,29 @@
-<script lang="ts" context="module">
-    export async function load({ page }) {
-        return {
-            props: {
-                path: page.path,
-            },
-        };
-    }
-</script>
-
 <script lang="ts">
-    // import <TW_CSS>: For Dev
+    import "../styles/tailwind.postcss";
 
-    import { blur } from "svelte/transition";
+    import { onDestroy, onMount } from "svelte";
+
+    import { goto } from "$app/navigation";
+    import { page } from "$app/stores";
+
     import { cfg } from "$lib/config";
+    import { locale, localizedPath } from "$lib/i18n";
 
-    import Header from "$ui/Header.svelte";
-    import Nav from "$ui/Nav.svelte";
-    import Footer from "$ui/Footer.svelte";
+    let lastLocale = $locale;
 
-    export let path = "/";
+    let unsubscribe = () => {};
+
+    onMount(() => {
+        unsubscribe = locale.subscribe((newLocale) => {
+            goto(localizedPath($page.url.pathname, lastLocale, newLocale), { replaceState: true });
+            lastLocale = newLocale;
+        });
+
+        if (!["en", "hi"].some((x) => $page.url.pathname.startsWith(`/${x}`))) {
+            goto(localizedPath($page.url.pathname, "", `${lastLocale}/`), { replaceState: true });
+        }
+    });
+    onDestroy(unsubscribe);
 </script>
 
 <svelte:head>
@@ -27,19 +32,4 @@
     {/if}
 </svelte:head>
 
-{#key path}
-    <Header styles="p-4 w-full h-full flex-cij sm:flex-row" />
-    <Nav
-        path="{path}"
-        styles="text-white flex-rij rounded-xl font-bold bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br"
-    />
-    <section
-        id="content"
-        class="p-8 w-full min-h-screen flex-ci"
-        in:blur="{{ duration: 300, delay: 300, amount: 5 }}"
-        out:blur="{{ duration: 300 }}"
-    >
-        <slot />
-    </section>
-    <Footer styles="p-4 w-full h-full flex-cij" />
-{/key}
+<slot />

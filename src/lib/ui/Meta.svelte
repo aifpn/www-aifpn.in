@@ -1,6 +1,7 @@
 <script lang="ts">
     import { derived } from "svelte/store";
-    import { locale } from "$lib/stores/locale";
+
+    import { page } from "$app/stores";
 
     import type { IMeta } from "$lib/types";
 
@@ -8,50 +9,47 @@
 
     export let metaData: Partial<IMeta> = {};
 
-    const i18n = derived(locale, ($locale) => {
+    const t = derived(page, ($page) => {
         // locale: english (en)
-        let strings: {
-            page_title: string;
-            page_description: string;
+        let data: {
+            title: string;
+            description: string;
+            keywords: string[];
         } = {
-            page_title: "All India Food Processing Nigam",
-            page_description: "Official Website for All India Food Processing Nigam",
+            title: "All India Food Processing Nigam",
+            description: "Official Website for All India Food Processing Nigam",
+            keywords: ["aifpn", "all india food processing nigam", "all india food processing corporation"],
         };
 
-        switch ($locale) {
+        switch ($page.params.locale) {
             case "hi":
-                strings.page_title = "अखिल भारतीय खाद्य प्रसंस्करण निगम";
-                strings.page_description = "अखिल भारतीय खाद्य प्रसंस्करण निगम की आधिकारिक वेबसाइट";
+                data.title = "अखिल भारतीय खाद्य प्रसंस्करण निगम";
+                data.description = "अखिल भारतीय खाद्य प्रसंस्करण निगम की आधिकारिक वेबसाइट";
+                data.keywords = ["एआईएफपीएन", "अखिल भारतीय खाद्य प्रसंस्करण निगम"];
         }
 
-        return strings;
+        return data;
     });
 
     metaData = {
-        url: "/",
-        keywords: [],
+        url: `/${$page.params.locale}`,
         robots: "index,follow",
-        sitemapUrl: "/sitemap.xml",
+        keywords: [],
+        sitemapUrl: `/${$page.params.locale}/sitemap.xml`,
         ...metaData,
-        title: `${metaData.title || ""}${metaData.title && " - "}${$i18n.page_title}`,
-        description: metaData.description || $i18n.page_description,
+        title: `${metaData.title || ""}${metaData.title && " - "}${$t.title}`,
+        description: metaData.description || $t.description,
     };
 
     metaData = {
         ...metaData,
-        keywords: [
-            ...metaData.keywords,
-            "aifpn",
-            "all india food processing nigam",
-            "all india food processing corporation",
-            "अखिल भारतीय खाद्य प्रसंस्करण निगम",
-        ],
+        keywords: [...metaData.keywords, ...$t.keywords],
         openGraph: {
             ...metaData.openGraph,
             url: `${cfg.base_url}${metaData.url}`,
             title: metaData.title,
             description: metaData.description,
-            locale: `${$locale}_IN`,
+            locale: `${$page.params.locale}_IN`,
         },
         twitter: {
             ...metaData.twitter,
@@ -95,12 +93,7 @@
     <meta name="googlebot" content="{metaData.robots}" />
 
     {#if metaData && metaData.title && metaData.sitemapUrl}
-        <link
-            rel="sitemap"
-            type="application/xml"
-            title="{`${$i18n.page_title} - Sitemap`}"
-            href="{metaData.sitemapUrl}"
-        />
+        <link rel="sitemap" type="application/xml" title="{`${$t.title} - Sitemap`}" href="{metaData.sitemapUrl}" />
     {/if}
 
     {#if metaData && metaData.title}
