@@ -1,6 +1,6 @@
-const timestamp = 1645429380917;
+const timestamp = 1645551083342;
 const build = [
-  "/_app/start-d9fabfbe.js",
+  "/_app/start-97fe3b0f.js",
   "/_app/pages/__layout.svelte-7aff71e6.js",
   "/_app/error.svelte-4931a945.js",
   "/_app/pages/index.svelte-6bd26805.js",
@@ -8,7 +8,7 @@ const build = [
   "/_app/pages/_locale_/__error.svelte-aeaa3d69.js",
   "/_app/pages/_locale_/index.svelte-85009c5c.js",
   "/_app/pages/_locale_/food-processing.svelte-6d4cfdde.js",
-  "/_app/pages/_locale_/gallery.svelte-1308d0d9.js",
+  "/_app/pages/_locale_/gallery.svelte-452f28c0.js",
   "/_app/pages/_locale_/about/index.svelte-ef57623b.js",
   "/_app/pages/_locale_/about/key-persons.svelte-f9a385a2.js",
   "/_app/pages/_locale_/about/importance.svelte-18a45773.js",
@@ -40,6 +40,8 @@ const files = [
   "/images/img-12.jpeg",
   "/images/img-13.jpeg",
   "/images/img-14.jpeg",
+  "/images/img-15.jpeg",
+  "/images/img-16.jpeg",
   "/images/img-2.jpeg",
   "/images/img-3.jpeg",
   "/images/img-4.jpeg",
@@ -48,7 +50,6 @@ const files = [
   "/images/img-7.jpeg",
   "/images/img-8.jpeg",
   "/images/img-9.jpeg",
-  "/images/mr-surendra-pal-2.jpeg",
   "/images/mr-surendra-pal.jpeg",
   "/logo-2.png",
   "/logo.png",
