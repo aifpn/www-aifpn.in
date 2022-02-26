@@ -37,7 +37,7 @@
                         {
                             name: "Mr. Surendra Pal",
                             department: "",
-                            state: "Uttar Pradesh",
+                            state: "All",
                             contact: { phone: "+91 9415934691" },
                         },
                     ],
@@ -110,7 +110,7 @@
         switch ($page.params.locale) {
             case "hi":
                 data.title = "अधिकारियों की निर्देशिका";
-                data.cols = ["पोस्ट", "विभाग", "नाम", "पोस्टिंग स्टेट", "संपर्क विवरण"];
+                data.cols = ["पोस्ट", "विभाग", "नाम", "तैनाती राज्य", "संपर्क विवरण"];
                 data.content = [
                     { post: "अध्यक्ष", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     {
@@ -119,7 +119,7 @@
                             {
                                 name: "श्री सुरेंद्र पाल",
                                 department: "",
-                                state: "उत्तर प्रदेश",
+                                state: "सभी",
                                 contact: { phone: "+91 9415934691" },
                             },
                         ],
