@@ -18,9 +18,9 @@
                     name: string;
                     department: string;
                     contact?: {
-                        phone: string;
-                        email: string;
-                        address: string;
+                        phone?: string;
+                        email?: string;
+                        address?: string;
                     };
                 }[];
             }[];
@@ -32,7 +32,7 @@
                 { post: "Chairman", persons: [{ name: "N/A", department: "" }] },
                 {
                     post: "Chief Executive Officer",
-                    persons: [{ name: "Mr. Surendra Pal", department: "" }],
+                    persons: [{ name: "Mr. Surendra Pal", department: "", contact: { phone: "+91 9415934691" } }],
                 },
                 { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "" }] },
                 { post: "Chief Vigilance Officer", persons: [{ name: "N/A", department: "" }] },
@@ -218,10 +218,16 @@
                                 {tdata.persons[0].name}
                             </td>
                             {#if tdata.persons[0].contact}
-                                <td class="p-4 text-center">
-                                    {tdata.persons[0].contact.address}
-                                    {tdata.persons[0].contact.email}
-                                    {tdata.persons[0].contact.phone}
+                                <td class="p-4 flex-cij">
+                                    {#if tdata.persons[0].contact.address}
+                                        <span>Address: {tdata.persons[0].contact.address}</span>
+                                    {/if}
+                                    {#if tdata.persons[0].contact.email}
+                                        <span>E-Mail: {tdata.persons[0].contact.email}</span>
+                                    {/if}
+                                    {#if tdata.persons[0].contact.phone}
+                                        <span>Phone: {tdata.persons[0].contact.phone}</span>
+                                    {/if}
                                 </td>
                             {:else}
                                 <td class="p-4 text-center"> N/A </td>
@@ -237,10 +243,16 @@
                                         {x.name}
                                     </td>
                                     {#if x.contact}
-                                        <td class="p-4 text-center">
-                                            {x.contact.address}
-                                            {x.contact.email}
-                                            {x.contact.phone}
+                                        <td class="p-4 flex-cij">
+                                            {#if x.contact.address}
+                                                <span>Address: {x.contact.address}</span>
+                                            {/if}
+                                            {#if x.contact.email}
+                                                <span>E-Mail: {x.contact.email}</span>
+                                            {/if}
+                                            {#if x.contact.phone}
+                                                <span>Phone: {x.contact.phone}</span>
+                                            {/if}
                                         </td>
                                     {:else}
                                         <td class="p-4 text-center"> N/A </td>
