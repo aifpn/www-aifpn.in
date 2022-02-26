@@ -107,7 +107,7 @@
                     { post: "अध्यक्ष", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     {
                         post: "मुख्य कार्यकारी अधिकारी",
-                        persons: [{ name: "श्री सुरेंद्र पाल", department: "" }],
+                        persons: [{ name: "श्री सुरेंद्र पाल", department: "", contact: { phone: "+91 9415934691" } }],
                     },
                     { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     { post: "मुख्य सतर्कता अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
