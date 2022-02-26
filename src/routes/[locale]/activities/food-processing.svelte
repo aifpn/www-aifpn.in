@@ -18,7 +18,7 @@
         } = {
             title: "Food Processing",
             content:
-                "Food processing industry refers to such activities. In which value addition is done by processing primary agricultural products. For example, processing of dairy products, milk, beans and vegetables, packaged food and beverages come under the food processing industry.",
+                "Food processing industry refers to such activities. In which value addition is done by processing primary agricultural products. For example, processing of dairy products, milk, fruits and vegetables, packaged food and beverages come under the food processing industry.",
             keywords: ["food processing", "what is food processing", "food processing at aifpn"],
         };
 
@@ -26,7 +26,7 @@
             case "hi":
                 data.title = "खाद्य प्रसंस्करण";
                 data.content =
-                    "खाद्य प्रसंस्करण उद्योग का तात्पर्य ऐसी गतिविधियों से है। जिसमें प्राथमिक कृषि उत्पादों का प्रसंस्करण कर उनका मूल्यवर्धन किया जाता है। उदाहरण के लिए डेयरी उत्पाद, दूध, बल तथा सब्जियों का प्रसंस्करण, पैकेट बंद भोजन तथा पेय पदार्थ खाद्य प्रसंस्करण उद्योग के अन्तर्गत आते है।";
+                    "खाद्य प्रसंस्करण उद्योग ऐसी गतिविधियों को संदर्भित करता है। जिसमें प्राथमिक कृषि उत्पादों को संसाधित करके मूल्यवर्धन किया जाता है। उदाहरण के लिए, डेयरी उत्पादों का प्रसंस्करण, दूध, फल और सब्जियां, पैकेज्ड खाद्य और पेय पदार्थ खाद्य प्रसंस्करण उद्योग के अंतर्गत आते हैं।";
                 data.keywords = ["खाद्य प्रसंस्करण", "खाद्य प्रसंस्करण क्या है", "एआईएफपीएन में खाद्य प्रसंस्करण"];
         }
 
