@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-726ddd93.js",
+    "file": "start-481e107a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
+      "_vendor-9b5b5743.js",
       "_paths-4b3c6e7e.js",
       "_singletons-a6a7384f.js"
     ],
@@ -20,6 +20,7 @@
       "src/routes/[locale]/activities/food-processing.svelte",
       "src/routes/[locale]/gallery.svelte",
       "src/routes/[locale]/about/index.svelte",
+      "src/routes/[locale]/about/officers-directory.svelte",
       "src/routes/[locale]/about/key-persons.svelte",
       "src/routes/[locale]/about/importance.svelte",
       "src/routes/[locale]/about/objectives.svelte",
@@ -28,196 +29,208 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-034c9413.js",
+    "file": "pages/__layout.svelte-53130f90.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
+      "_vendor-9b5b5743.js",
       "_navigation-bd39ff07.js",
-      "_stores-7bee7670.js",
-      "_i18n-239c4c54.js",
+      "_stores-2de44e8e.js",
+      "_i18n-8e1c9152.js",
       "_singletons-a6a7384f.js",
       "_paths-4b3c6e7e.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-68b95c9f.js",
+    "file": "error.svelte-5c83ddff.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js"
+      "_vendor-9b5b5743.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ca9b67d5.js",
+    "file": "pages/index.svelte-a802f1b0.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js"
+      "_vendor-9b5b5743.js"
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-c53236c4.js",
+    "file": "pages/_locale_/__layout.svelte-1ebbdc79.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_i18n-239c4c54.js",
-      "_Link-c75c1eed.js",
+      "_i18n-8e1c9152.js",
+      "_Link-61e15fda.js",
       "_paths-4b3c6e7e.js"
     ]
   },
   "src/routes/[locale]/__error.svelte": {
-    "file": "pages/_locale_/__error.svelte-a3c953cd.js",
+    "file": "pages/_locale_/__error.svelte-39cb4dd8.js",
     "src": "src/routes/[locale]/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
-      "_Meta-2f0a0659.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
+      "_Meta-e5282240.js",
       "_config-9b6411d1.js"
     ]
   },
   "src/routes/[locale]/index.svelte": {
-    "file": "pages/_locale_/index.svelte-fdb59cf8.js",
+    "file": "pages/_locale_/index.svelte-39736954.js",
     "src": "src/routes/[locale]/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/activities/index.svelte": {
-    "file": "pages/_locale_/activities/index.svelte-112b2fdd.js",
+    "file": "pages/_locale_/activities/index.svelte-d2ae4e85.js",
     "src": "src/routes/[locale]/activities/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js",
-      "_Link-c75c1eed.js"
+      "_Meta-e5282240.js",
+      "_Link-61e15fda.js"
     ]
   },
   "src/routes/[locale]/activities/fish-processing.svelte": {
-    "file": "pages/_locale_/activities/fish-processing.svelte-07aa1f3c.js",
+    "file": "pages/_locale_/activities/fish-processing.svelte-b0ba1983.js",
     "src": "src/routes/[locale]/activities/fish-processing.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/activities/food-processing.svelte": {
-    "file": "pages/_locale_/activities/food-processing.svelte-878b5b77.js",
+    "file": "pages/_locale_/activities/food-processing.svelte-e058ea15.js",
     "src": "src/routes/[locale]/activities/food-processing.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/gallery.svelte": {
-    "file": "pages/_locale_/gallery.svelte-bf42aacc.js",
+    "file": "pages/_locale_/gallery.svelte-14578c21.js",
     "src": "src/routes/[locale]/gallery.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/about/index.svelte": {
-    "file": "pages/_locale_/about/index.svelte-9e239287.js",
+    "file": "pages/_locale_/about/index.svelte-18a77dcb.js",
     "src": "src/routes/[locale]/about/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
+      "_vendor-9b5b5743.js",
       "_navigation-bd39ff07.js",
-      "_stores-7bee7670.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
       "_singletons-a6a7384f.js"
     ]
   },
+  "src/routes/[locale]/about/officers-directory.svelte": {
+    "file": "pages/_locale_/about/officers-directory.svelte-5c52f7b6.js",
+    "src": "src/routes/[locale]/about/officers-directory.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
+      "_Meta-e5282240.js",
+      "_config-9b6411d1.js"
+    ]
+  },
   "src/routes/[locale]/about/key-persons.svelte": {
-    "file": "pages/_locale_/about/key-persons.svelte-f6c351f7.js",
+    "file": "pages/_locale_/about/key-persons.svelte-c563fa20.js",
     "src": "src/routes/[locale]/about/key-persons.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/about/importance.svelte": {
-    "file": "pages/_locale_/about/importance.svelte-20164ba3.js",
+    "file": "pages/_locale_/about/importance.svelte-4f468d1e.js",
     "src": "src/routes/[locale]/about/importance.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/about/objectives.svelte": {
-    "file": "pages/_locale_/about/objectives.svelte-91209712.js",
+    "file": "pages/_locale_/about/objectives.svelte-70cec169.js",
     "src": "src/routes/[locale]/about/objectives.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/about/history.svelte": {
-    "file": "pages/_locale_/about/history.svelte-96ec50c2.js",
+    "file": "pages/_locale_/about/history.svelte-515d8b49.js",
     "src": "src/routes/[locale]/about/history.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js",
-      "_Meta-2f0a0659.js"
+      "_Meta-e5282240.js"
     ]
   },
   "src/routes/[locale]/[...no_route].svelte": {
-    "file": "pages/_locale_/_...no_route_.svelte-03fce59b.js",
+    "file": "pages/_locale_/_...no_route_.svelte-9e3eb54f.js",
     "src": "src/routes/[locale]/[...no_route].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-3bd315f7.js"
+      "_vendor-9b5b5743.js"
     ]
   },
-  "_vendor-3bd315f7.js": {
-    "file": "chunks/vendor-3bd315f7.js"
+  "_vendor-9b5b5743.js": {
+    "file": "chunks/vendor-9b5b5743.js"
   },
   "_paths-4b3c6e7e.js": {
     "file": "chunks/paths-4b3c6e7e.js"
@@ -231,33 +244,33 @@
       "_singletons-a6a7384f.js"
     ]
   },
-  "_stores-7bee7670.js": {
-    "file": "chunks/stores-7bee7670.js",
+  "_stores-2de44e8e.js": {
+    "file": "chunks/stores-2de44e8e.js",
     "imports": [
-      "_vendor-3bd315f7.js"
+      "_vendor-9b5b5743.js"
     ]
   },
-  "_i18n-239c4c54.js": {
-    "file": "chunks/i18n-239c4c54.js",
+  "_i18n-8e1c9152.js": {
+    "file": "chunks/i18n-8e1c9152.js",
     "imports": [
-      "_vendor-3bd315f7.js",
+      "_vendor-9b5b5743.js",
       "_paths-4b3c6e7e.js"
     ]
   },
   "_config-9b6411d1.js": {
     "file": "chunks/config-9b6411d1.js"
   },
-  "_Link-c75c1eed.js": {
-    "file": "chunks/Link-c75c1eed.js",
+  "_Link-61e15fda.js": {
+    "file": "chunks/Link-61e15fda.js",
     "imports": [
-      "_vendor-3bd315f7.js"
+      "_vendor-9b5b5743.js"
     ]
   },
-  "_Meta-2f0a0659.js": {
-    "file": "chunks/Meta-2f0a0659.js",
+  "_Meta-e5282240.js": {
+    "file": "chunks/Meta-e5282240.js",
     "imports": [
-      "_vendor-3bd315f7.js",
-      "_stores-7bee7670.js",
+      "_vendor-9b5b5743.js",
+      "_stores-2de44e8e.js",
       "_config-9b6411d1.js"
     ]
   }

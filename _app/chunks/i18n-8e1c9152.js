@@ -1,0 +1,1 @@
+import{D as r}from"./vendor-9b5b5743.js";import{b as o}from"./paths-4b3c6e7e.js";function n(e,t,l){return(o?"/"+o:"")+"/"+l+e.substring(t.length+1)}var a;const s=r((a=window.localStorage.getItem("locale"))!=null?a:"en");s.subscribe(e=>{window.localStorage.setItem("locale",e)});export{n as a,s as l};
