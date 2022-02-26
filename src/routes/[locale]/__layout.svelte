@@ -60,6 +60,10 @@
                     name: "Key Persons",
                     href: $t.localize("/about/key-persons"),
                 },
+                {
+                    name: "Officers Directory",
+                    href: $t.localize("/about/officers-directory"),
+                },
             ],
         },
         {

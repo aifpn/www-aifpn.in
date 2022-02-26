@@ -11,6 +11,7 @@ export async function get({ params }) {
         "/about/importance",
         "/about/objectives",
         "/about/key-persons",
+        "/about/officers-directory",
         "/activities",
         "/activities/food-processing",
         "/activities/fish-processing",
