@@ -34,7 +34,7 @@
     });
 
     const metaData: Partial<IMeta> = {
-        url: `/${$page.params.locale}/food-processing`,
+        url: `/${$page.params.locale}/activities/food-processing`,
         title: $t.title,
         keywords: $t.keywords,
     };

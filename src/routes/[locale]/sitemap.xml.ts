@@ -11,7 +11,9 @@ export async function get({ params }) {
         "/about/importance",
         "/about/objectives",
         "/about/key-persons",
-        "/food-processing",
+        "/activities",
+        "/activities/food-processing",
+        "/activities/fish-processing",
         "/gallery",
     ]) {
         let data = "";

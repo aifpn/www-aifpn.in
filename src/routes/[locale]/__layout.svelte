@@ -63,8 +63,22 @@
             ],
         },
         {
-            name: "Food Processing",
-            href: $t.localize("/food-processing"),
+            name: "Activities",
+            href: $t.localize("/activities"),
+            childs: [
+                {
+                    name: "Details",
+                    href: $t.localize("/activities"),
+                },
+                {
+                    name: "Food Processing",
+                    href: $t.localize("/activities/food-processing"),
+                },
+                {
+                    name: "Fish Processing",
+                    href: $t.localize("/activities/fish-processing"),
+                },
+            ],
         },
         {
             name: "Gallery",
