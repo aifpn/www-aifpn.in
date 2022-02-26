@@ -22,17 +22,25 @@
                         email?: string;
                         address?: string;
                     };
+                    state?: string;
                 }[];
             }[];
             keywords: string[];
         } = {
             title: "Directory of Officers",
-            cols: ["Post", "Department", "Name", "Contact Details"],
+            cols: ["Post", "Department", "Name", "Posting State", "Contact Details"],
             content: [
                 { post: "Chairman", persons: [{ name: "N/A", department: "" }] },
                 {
                     post: "Chief Executive Officer",
-                    persons: [{ name: "Mr. Surendra Pal", department: "", contact: { phone: "+91 9415934691" } }],
+                    persons: [
+                        {
+                            name: "Mr. Surendra Pal",
+                            department: "",
+                            state: "Uttar Pradesh",
+                            contact: { phone: "+91 9415934691" },
+                        },
+                    ],
                 },
                 { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "" }] },
                 { post: "Chief Vigilance Officer", persons: [{ name: "N/A", department: "" }] },
@@ -102,12 +110,19 @@
         switch ($page.params.locale) {
             case "hi":
                 data.title = "अधिकारियों की निर्देशिका";
-                data.cols = ["पोस्ट", "विभाग", "नाम", "संपर्क विवरण"];
+                data.cols = ["पोस्ट", "विभाग", "नाम", "पोस्टिंग स्टेट", "संपर्क विवरण"];
                 data.content = [
                     { post: "अध्यक्ष", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     {
                         post: "मुख्य कार्यकारी अधिकारी",
-                        persons: [{ name: "श्री सुरेंद्र पाल", department: "", contact: { phone: "+91 9415934691" } }],
+                        persons: [
+                            {
+                                name: "श्री सुरेंद्र पाल",
+                                department: "",
+                                state: "उत्तर प्रदेश",
+                                contact: { phone: "+91 9415934691" },
+                            },
+                        ],
                     },
                     { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     { post: "मुख्य सतर्कता अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
@@ -217,6 +232,13 @@
                             <td class="p-4 text-center">
                                 {tdata.persons[0].name}
                             </td>
+                            {#if tdata.persons[0].state}
+                                <td class="p-4 text-center">
+                                    {tdata.persons[0].state}
+                                </td>
+                            {:else}
+                                <td class="p-4 text-center"> N/A </td>
+                            {/if}
                             {#if tdata.persons[0].contact}
                                 <td class="p-4 flex-cij">
                                     {#if tdata.persons[0].contact.address}
@@ -242,6 +264,13 @@
                                     <td class="p-4 text-center">
                                         {x.name}
                                     </td>
+                                    {#if x.state}
+                                        <td class="p-4 text-center">
+                                            {x.state}
+                                        </td>
+                                    {:else}
+                                        <td class="p-4 text-center"> N/A </td>
+                                    {/if}
                                     {#if x.contact}
                                         <td class="p-4 flex-cij">
                                             {#if x.contact.address}
