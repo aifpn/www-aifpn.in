@@ -1,18 +1,19 @@
-const timestamp = 1645985991964;
+const timestamp = 1645986518261;
 const build = [
-  "/_app/start-17b0b45d.js",
+  "/_app/start-0add7617.js",
   "/_app/pages/__layout.svelte-623b95ac.js",
   "/_app/error.svelte-060fe7c8.js",
   "/_app/pages/index.svelte-7ac8d98d.js",
-  "/_app/pages/_locale_/__layout.svelte-acfecd7c.js",
+  "/_app/pages/_locale_/__layout.svelte-f7316fac.js",
   "/_app/pages/_locale_/__error.svelte-6a1b10a8.js",
   "/_app/pages/_locale_/index.svelte-1ca6f301.js",
   "/_app/pages/_locale_/recruitment/index.svelte-5c5ac41f.js",
   "/_app/pages/_locale_/recruitment/deo.svelte-1a4fb687.js",
   "/_app/pages/_locale_/recruitment/ldc.svelte-83800c1b.js",
-  "/_app/pages/_locale_/activities/index.svelte-88b74390.js",
+  "/_app/pages/_locale_/activities/index.svelte-cbd33bd8.js",
   "/_app/pages/_locale_/activities/fish-processing.svelte-36cf54e1.js",
   "/_app/pages/_locale_/activities/food-processing.svelte-50fbecc5.js",
+  "/_app/pages/_locale_/activities/meat-processing.svelte-fa41d624.js",
   "/_app/pages/_locale_/gallery.svelte-f0c5f44f.js",
   "/_app/pages/_locale_/about/index.svelte-91d44c5d.js",
   "/_app/pages/_locale_/about/officers-directory.svelte-ca5d0a4d.js",
