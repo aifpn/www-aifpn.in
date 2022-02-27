@@ -82,6 +82,24 @@
                     name: "Fish Processing",
                     href: $t.localize("/activities/fish-processing"),
                 },
+                {
+                    name: "Meat Processing",
+                    href: $t.localize("/activities/meat-processing"),
+                },
+            ],
+        },
+        {
+            name: "Recruitment",
+            href: $t.localize("/recruitment"),
+            childs: [
+                {
+                    name: "LDC",
+                    href: $t.localize("/recruitment/ldc"),
+                },
+                {
+                    name: "DEO",
+                    href: $t.localize("/recruitment/deo"),
+                },
             ],
         },
         {

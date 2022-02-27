@@ -36,11 +36,11 @@
                         link: `/${$page.params.locale}/activities/food-processing`,
                     },
                     { img: 107, name: "sugar industry", link: `/${$page.params.locale}/activities/food-processing` },
-                    { img: 108, name: "slaughterhouse", link: `/${$page.params.locale}/activities/food-processing` },
+                    { img: 108, name: "slaughterhouse", link: `/${$page.params.locale}/activities/meat-processing` },
                     {
                         img: 109,
                         name: "meat packing plant",
-                        link: `/${$page.params.locale}/activities/food-processing`,
+                        link: `/${$page.params.locale}/activities/meat-processing`,
                     },
                     { img: 110, name: "spice processing", link: `/${$page.params.locale}/activities/food-processing` },
                 ],
