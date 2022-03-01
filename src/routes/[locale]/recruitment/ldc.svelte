@@ -42,9 +42,9 @@
                     data: [
                         {
                             sub: "General Knowledge & Current Affairs",
-                            n_q: "-",
-                            marks: "-",
-                            time_limit: "-",
+                            n_q: "50",
+                            marks: "50",
+                            time_limit: "2 hrs",
                             topics: [
                                 "Important Days",
                                 "Indian History",
@@ -66,8 +66,8 @@
                         },
                         {
                             sub: "Reasoning Ability",
-                            n_q: "-",
-                            marks: "-",
+                            n_q: "50",
+                            marks: "50",
                             topics: [
                                 "Verbal and Non-Verbal Reasoning",
                                 "Verbal and Figure Classification",
@@ -88,8 +88,8 @@
                         },
                         {
                             sub: "Numerical Ability",
-                            n_q: "-",
-                            marks: "-",
+                            n_q: "50",
+                            marks: "50",
                             topics: [
                                 "Simplification",
                                 "Decimal & Functions",
@@ -110,8 +110,8 @@
                         },
                         {
                             sub: "English",
-                            n_q: "-",
-                            marks: "-",
+                            n_q: "50",
+                            marks: "50",
                             topics: [
                                 "Verb",
                                 "Tenses",
@@ -131,32 +131,13 @@
                                 "Idioms & Phrases",
                             ],
                         },
-                        {
-                            sub: "Hindi",
-                            n_q: "-",
-                            marks: "-",
-                            topics: [
-                                "संधि एवं संधि विच्छेद",
-                                "समास",
-                                "उपसर्ग",
-                                "पर्यायवाची शब्द",
-                                "विलोम शब्द",
-                                "युग्म शब्द",
-                                "शब्द शुद्धि",
-                                "वाक्य शुद्धि",
-                                "वाच्य",
-                                "क्रिया",
-                                "अनेक शब्दों के लिये एक शब्द",
-                                "मुहावरे एवं लोकोक्तियां",
-                                "अशुद्ध शब्दों का शुद्धिकरण और शब्दर्त अशुद्धि का कारण",
-                                "वाच्य",
-                                "क्रिया",
-                                "वाकयांश के लिये के लिये एक शब्द",
-                                "मुहावरे एवं लोकोक्तियां",
-                                "अंग्रेजी के परिभाषिक शब्दों के समानार्थक हिंदी शब्द",
-                            ],
-                        },
                     ],
+                    footer: {
+                        total: "Total",
+                        n_q: "200",
+                        marks: "200",
+                        time_limit: "2 hrs",
+                    },
                 },
             },
             keywords: [
@@ -269,11 +250,12 @@
                                     "मुहावरे और वाक्यांश",
                                 ],
                             },
-                            {
-                                ...data.content.table.data[4],
-                                sub: "हिंदी",
-                            },
                         ],
+                        footer: {
+                            ...data.content.table.footer,
+                            total: "टोटल",
+                            time_limit: "2 घंटे",
+                        },
                     },
                 };
                 data.keywords = [
