@@ -35,7 +35,7 @@
                     persons: [
                         {
                             name: "Mr. Surendra Pal",
-                            department: "Executive",
+                            department: "",
                             state: "All",
                             contact: { phone: "+91 9415934691" },
                         },
@@ -48,17 +48,6 @@
                 { post: "Chief Accountant Officer", persons: [{ name: "N/A", department: "Accounts" }] },
                 { post: "Chief Purchasing Officer", persons: [{ name: "N/A", department: "Purchase" }] },
                 { post: "Chief Sales Officer", persons: [{ name: "N/A", department: "Sales" }] },
-                {
-                    post: "Chief General Manager",
-                    persons: [
-                        { name: "N/A", department: "IT" },
-                        { name: "N/A", department: "Sales" },
-                        { name: "N/A", department: "Finance" },
-                        { name: "N/A", department: "Accounts" },
-                        { name: "N/A", department: "Purchase" },
-                        { name: "N/A", department: "Legal" },
-                    ],
-                },
                 {
                     post: "General Manager",
                     persons: [
@@ -134,7 +123,7 @@
                         persons: [
                             {
                                 name: "श्री सुरेंद्र पाल",
-                                department: "कार्यकारी",
+                                department: "",
                                 state: "सभी",
                                 contact: { phone: "+91 9415934691" },
                             },
@@ -147,17 +136,6 @@
                     { post: "मुख्य लेखाकार अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "लेखा" }] },
                     { post: "मुख्य खरीद अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "खरीद" }] },
                     { post: "मुख्य बिक्री अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "बिक्री" }] },
-                    {
-                        post: "मुख्य महाप्रबंधक",
-                        persons: [
-                            { name: "उपलब्ध नहीं है", department: "आईटी" },
-                            { name: "उपलब्ध नहीं है", department: "बिक्री" },
-                            { name: "उपलब्ध नहीं है", department: "वित्त" },
-                            { name: "उपलब्ध नहीं है", department: "लेखा" },
-                            { name: "उपलब्ध नहीं है", department: "खरीद" },
-                            { name: "उपलब्ध नहीं है", department: "कानूनी" },
-                        ],
-                    },
                     {
                         post: "महाप्रबंधक",
                         persons: [
