@@ -12,12 +12,14 @@ export async function get({ params }) {
         "/about/objectives",
         "/about/key-persons",
         "/about/officers-directory",
+        "/about/staff-list",
         "/activities",
         "/activities/food-processing",
         "/activities/fish-processing",
         "/activities/meat-processing",
         "/recruitment/ldc",
         "/recruitment/deo",
+        "/recruitment/pa",
         "/gallery",
     ]) {
         let data = "";

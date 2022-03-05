@@ -64,6 +64,10 @@
                     name: "Officers Directory",
                     href: $t.localize("/about/officers-directory"),
                 },
+                {
+                    name: "Staff List",
+                    href: $t.localize("/about/staff-list"),
+                },
             ],
         },
         {
@@ -99,6 +103,10 @@
                 {
                     name: "DEO",
                     href: $t.localize("/recruitment/deo"),
+                },
+                {
+                    name: "PA",
+                    href: $t.localize("/recruitment/pa"),
                 },
             ],
         },

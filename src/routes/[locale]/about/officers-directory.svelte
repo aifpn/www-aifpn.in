@@ -30,31 +30,24 @@
             title: "Directory of Officers",
             cols: ["Post", "Department", "Name", "Posting State", "Contact Details"],
             content: [
-                { post: "Chairman", persons: [{ name: "N/A", department: "" }] },
                 {
                     post: "Chief Executive Officer",
                     persons: [
                         {
                             name: "Mr. Surendra Pal",
-                            department: "",
+                            department: "Executive",
                             state: "All",
                             contact: { phone: "+91 9415934691" },
                         },
                     ],
                 },
-                { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "" }] },
-                { post: "Chief Vigilance Officer", persons: [{ name: "N/A", department: "" }] },
-                {
-                    post: "Executive Director",
-                    persons: [
-                        { name: "N/A", department: "IT" },
-                        { name: "N/A", department: "Sales" },
-                        { name: "N/A", department: "Finance" },
-                        { name: "N/A", department: "Accounts" },
-                        { name: "N/A", department: "Purchase" },
-                        { name: "N/A", department: "Legal" },
-                    ],
-                },
+                { post: "Chief Technical Officer", persons: [{ name: "N/A", department: "Technology" }] },
+                { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "Finance" }] },
+                { post: "Chief Legal Officer", persons: [{ name: "N/A", department: "Legal" }] },
+                { post: "Chief Information Officer", persons: [{ name: "N/A", department: "IT" }] },
+                { post: "Chief Accountant Officer", persons: [{ name: "N/A", department: "Accounts" }] },
+                { post: "Chief Purchasing Officer", persons: [{ name: "N/A", department: "Purchase" }] },
+                { post: "Chief Sales Officer", persons: [{ name: "N/A", department: "Sales" }] },
                 {
                     post: "Chief General Manager",
                     persons: [
@@ -99,6 +92,30 @@
                         { name: "N/A", department: "Legal" },
                     ],
                 },
+                {
+                    post: "Chief Engineer",
+                    persons: [
+                        { name: "N/A", department: "Civil" },
+                        { name: "N/A", department: "Mechanical" },
+                        { name: "N/A", department: "Electrical" },
+                        { name: "N/A", department: "Computer Science" },
+                        { name: "N/A", department: "Chemical" },
+                        { name: "N/A", department: "Food Technology" },
+                        { name: "N/A", department: "Information Technology" },
+                    ],
+                },
+                {
+                    post: "Superintendent Engineer",
+                    persons: [
+                        { name: "N/A", department: "Civil" },
+                        { name: "N/A", department: "Mechanical" },
+                        { name: "N/A", department: "Electrical" },
+                        { name: "N/A", department: "Computer Science" },
+                        { name: "N/A", department: "Chemical" },
+                        { name: "N/A", department: "Food Technology" },
+                        { name: "N/A", department: "Information Technology" },
+                    ],
+                },
             ],
             keywords: [
                 "about aifpn",
@@ -112,31 +129,24 @@
                 data.title = "अधिकारियों की निर्देशिका";
                 data.cols = ["पोस्ट", "विभाग", "नाम", "तैनाती राज्य", "संपर्क विवरण"];
                 data.content = [
-                    { post: "अध्यक्ष", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
                     {
                         post: "मुख्य कार्यकारी अधिकारी",
                         persons: [
                             {
                                 name: "श्री सुरेंद्र पाल",
-                                department: "",
+                                department: "कार्यकारी",
                                 state: "सभी",
                                 contact: { phone: "+91 9415934691" },
                             },
                         ],
                     },
-                    { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
-                    { post: "मुख्य सतर्कता अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "" }] },
-                    {
-                        post: "कार्यकारी निदेशक",
-                        persons: [
-                            { name: "उपलब्ध नहीं है", department: "आईटी" },
-                            { name: "उपलब्ध नहीं है", department: "बिक्री" },
-                            { name: "उपलब्ध नहीं है", department: "वित्त" },
-                            { name: "उपलब्ध नहीं है", department: "लेखा" },
-                            { name: "उपलब्ध नहीं है", department: "खरीद" },
-                            { name: "उपलब्ध नहीं है", department: "कानूनी" },
-                        ],
-                    },
+                    { post: "मुख्य तकनीकी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "प्रौद्योगिकी" }] },
+                    { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "वित्त" }] },
+                    { post: "मुख्य कानूनी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "कानूनी" }] },
+                    { post: "मुख्य सूचना अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "आईटी" }] },
+                    { post: "मुख्य लेखाकार अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "लेखा" }] },
+                    { post: "मुख्य खरीद अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "खरीद" }] },
+                    { post: "मुख्य बिक्री अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "बिक्री" }] },
                     {
                         post: "मुख्य महाप्रबंधक",
                         persons: [
@@ -179,6 +189,30 @@
                             { name: "उपलब्ध नहीं है", department: "लेखा" },
                             { name: "उपलब्ध नहीं है", department: "खरीद" },
                             { name: "उपलब्ध नहीं है", department: "कानूनी" },
+                        ],
+                    },
+                    {
+                        post: "मुख्य अभियंता",
+                        persons: [
+                            { name: "उपलब्ध नहीं है", department: "सिविल" },
+                            { name: "उपलब्ध नहीं है", department: "यांत्रिक" },
+                            { name: "उपलब्ध नहीं है", department: "विद्युत" },
+                            { name: "उपलब्ध नहीं है", department: "कंप्यूटर विज्ञान" },
+                            { name: "उपलब्ध नहीं है", department: "रासायनिक" },
+                            { name: "उपलब्ध नहीं है", department: "खाद्य प्रौद्योगिकी" },
+                            { name: "उपलब्ध नहीं है", department: "सूचना प्रौद्योगिकी" },
+                        ],
+                    },
+                    {
+                        post: "अधीक्षक अभियंता",
+                        persons: [
+                            { name: "उपलब्ध नहीं है", department: "सिविल" },
+                            { name: "उपलब्ध नहीं है", department: "यांत्रिक" },
+                            { name: "उपलब्ध नहीं है", department: "विद्युत" },
+                            { name: "उपलब्ध नहीं है", department: "कंप्यूटर विज्ञान" },
+                            { name: "उपलब्ध नहीं है", department: "रासायनिक" },
+                            { name: "उपलब्ध नहीं है", department: "खाद्य प्रौद्योगिकी" },
+                            { name: "उपलब्ध नहीं है", department: "सूचना प्रौद्योगिकी" },
                         ],
                     },
                 ];
