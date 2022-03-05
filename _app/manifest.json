@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e148401e.js",
+    "file": "start-e8b72158.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -18,6 +18,7 @@
       "src/routes/[locale]/recruitment/index.svelte",
       "src/routes/[locale]/recruitment/deo.svelte",
       "src/routes/[locale]/recruitment/ldc.svelte",
+      "src/routes/[locale]/recruitment/pa.svelte",
       "src/routes/[locale]/activities/index.svelte",
       "src/routes/[locale]/activities/fish-processing.svelte",
       "src/routes/[locale]/activities/food-processing.svelte",
@@ -28,6 +29,7 @@
       "src/routes/[locale]/about/key-persons.svelte",
       "src/routes/[locale]/about/importance.svelte",
       "src/routes/[locale]/about/objectives.svelte",
+      "src/routes/[locale]/about/staff-list.svelte",
       "src/routes/[locale]/about/history.svelte",
       "src/routes/[locale]/[...no_route].svelte"
     ]
@@ -65,7 +67,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-f7316fac.js",
+    "file": "pages/_locale_/__layout.svelte-6ba79db7.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -130,6 +132,18 @@
   "src/routes/[locale]/recruitment/ldc.svelte": {
     "file": "pages/_locale_/recruitment/ldc.svelte-c85de595.js",
     "src": "src/routes/[locale]/recruitment/ldc.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_Meta-1fb2756b.js",
+      "_config-9b6411d1.js"
+    ]
+  },
+  "src/routes/[locale]/recruitment/pa.svelte": {
+    "file": "pages/_locale_/recruitment/pa.svelte-4055df3a.js",
+    "src": "src/routes/[locale]/recruitment/pa.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
@@ -214,7 +228,7 @@
     ]
   },
   "src/routes/[locale]/about/officers-directory.svelte": {
-    "file": "pages/_locale_/about/officers-directory.svelte-8e1321fe.js",
+    "file": "pages/_locale_/about/officers-directory.svelte-e2bf860a.js",
     "src": "src/routes/[locale]/about/officers-directory.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -259,6 +273,18 @@
       "_stores-d101fe06.js",
       "_config-9b6411d1.js",
       "_Meta-1fb2756b.js"
+    ]
+  },
+  "src/routes/[locale]/about/staff-list.svelte": {
+    "file": "pages/_locale_/about/staff-list.svelte-fb723e94.js",
+    "src": "src/routes/[locale]/about/staff-list.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_Meta-1fb2756b.js",
+      "_config-9b6411d1.js"
     ]
   },
   "src/routes/[locale]/about/history.svelte": {
