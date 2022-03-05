@@ -1,6 +1,6 @@
-const timestamp = 1646483663907;
+const timestamp = 1646488106034;
 const build = [
-  "/_app/start-e8b72158.js",
+  "/_app/start-276e28e2.js",
   "/_app/pages/__layout.svelte-623b95ac.js",
   "/_app/error.svelte-060fe7c8.js",
   "/_app/pages/index.svelte-7ac8d98d.js",
@@ -17,7 +17,7 @@ const build = [
   "/_app/pages/_locale_/activities/meat-processing.svelte-fa41d624.js",
   "/_app/pages/_locale_/gallery.svelte-f0c5f44f.js",
   "/_app/pages/_locale_/about/index.svelte-91d44c5d.js",
-  "/_app/pages/_locale_/about/officers-directory.svelte-e2bf860a.js",
+  "/_app/pages/_locale_/about/officers-directory.svelte-e7fb0160.js",
   "/_app/pages/_locale_/about/key-persons.svelte-457a54aa.js",
   "/_app/pages/_locale_/about/importance.svelte-c13c79b8.js",
   "/_app/pages/_locale_/about/objectives.svelte-e8ff9930.js",
