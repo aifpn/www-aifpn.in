@@ -18,6 +18,7 @@ export async function get({ params }) {
         "/activities",
         "/activities/food-processing",
         "/activities/beet-sugar-processing",
+        "/activities/ghee-processing",
         "/activities/fish-processing",
         "/recruitment/ldc",
         "/recruitment/deo",
