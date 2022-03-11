@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-276e28e2.js",
+    "file": "start-05791f7e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -20,13 +20,16 @@
       "src/routes/[locale]/recruitment/ldc.svelte",
       "src/routes/[locale]/recruitment/pa.svelte",
       "src/routes/[locale]/activities/index.svelte",
+      "src/routes/[locale]/activities/beet-sugar-processing.svelte",
       "src/routes/[locale]/activities/fish-processing.svelte",
       "src/routes/[locale]/activities/food-processing.svelte",
       "src/routes/[locale]/activities/meat-processing.svelte",
       "src/routes/[locale]/gallery.svelte",
       "src/routes/[locale]/about/index.svelte",
       "src/routes/[locale]/about/officers-directory.svelte",
+      "src/routes/[locale]/about/list-of-drivers.svelte",
       "src/routes/[locale]/about/key-persons.svelte",
+      "src/routes/[locale]/about/list-of-pas.svelte",
       "src/routes/[locale]/about/importance.svelte",
       "src/routes/[locale]/about/objectives.svelte",
       "src/routes/[locale]/about/staff-list.svelte",
@@ -67,7 +70,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-6ba79db7.js",
+    "file": "pages/_locale_/__layout.svelte-39dc0746.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -154,7 +157,7 @@
     ]
   },
   "src/routes/[locale]/activities/index.svelte": {
-    "file": "pages/_locale_/activities/index.svelte-cbd33bd8.js",
+    "file": "pages/_locale_/activities/index.svelte-9ec608e6.js",
     "src": "src/routes/[locale]/activities/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -164,6 +167,18 @@
       "_config-9b6411d1.js",
       "_Meta-1fb2756b.js",
       "_Link-7ff5eae3.js"
+    ]
+  },
+  "src/routes/[locale]/activities/beet-sugar-processing.svelte": {
+    "file": "pages/_locale_/activities/beet-sugar-processing.svelte-00efe678.js",
+    "src": "src/routes/[locale]/activities/beet-sugar-processing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_config-9b6411d1.js",
+      "_Meta-1fb2756b.js"
     ]
   },
   "src/routes/[locale]/activities/fish-processing.svelte": {
@@ -179,7 +194,7 @@
     ]
   },
   "src/routes/[locale]/activities/food-processing.svelte": {
-    "file": "pages/_locale_/activities/food-processing.svelte-50fbecc5.js",
+    "file": "pages/_locale_/activities/food-processing.svelte-aa53306e.js",
     "src": "src/routes/[locale]/activities/food-processing.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -239,6 +254,18 @@
       "_config-9b6411d1.js"
     ]
   },
+  "src/routes/[locale]/about/list-of-drivers.svelte": {
+    "file": "pages/_locale_/about/list-of-drivers.svelte-4eb53beb.js",
+    "src": "src/routes/[locale]/about/list-of-drivers.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_Meta-1fb2756b.js",
+      "_config-9b6411d1.js"
+    ]
+  },
   "src/routes/[locale]/about/key-persons.svelte": {
     "file": "pages/_locale_/about/key-persons.svelte-457a54aa.js",
     "src": "src/routes/[locale]/about/key-persons.svelte",
@@ -249,6 +276,18 @@
       "_stores-d101fe06.js",
       "_config-9b6411d1.js",
       "_Meta-1fb2756b.js"
+    ]
+  },
+  "src/routes/[locale]/about/list-of-pas.svelte": {
+    "file": "pages/_locale_/about/list-of-pas.svelte-dfaed211.js",
+    "src": "src/routes/[locale]/about/list-of-pas.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_Meta-1fb2756b.js",
+      "_config-9b6411d1.js"
     ]
   },
   "src/routes/[locale]/about/importance.svelte": {
