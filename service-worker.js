@@ -1,10 +1,10 @@
-const timestamp = 1647021952820;
+const timestamp = 1647034898641;
 const build = [
-  "/_app/start-7e78d556.js",
+  "/_app/start-6d1a586e.js",
   "/_app/pages/__layout.svelte-623b95ac.js",
   "/_app/error.svelte-060fe7c8.js",
   "/_app/pages/index.svelte-7ac8d98d.js",
-  "/_app/pages/_locale_/__layout.svelte-7fc40221.js",
+  "/_app/pages/_locale_/__layout.svelte-2dc7a7f8.js",
   "/_app/pages/_locale_/__error.svelte-6a1b10a8.js",
   "/_app/pages/_locale_/index.svelte-1ca6f301.js",
   "/_app/pages/_locale_/recruitment/index.svelte-5c5ac41f.js",
@@ -15,6 +15,7 @@ const build = [
   "/_app/pages/_locale_/activities/beet-sugar-processing.svelte-f712171a.js",
   "/_app/pages/_locale_/activities/fish-processing.svelte-36cf54e1.js",
   "/_app/pages/_locale_/activities/food-processing.svelte-aa53306e.js",
+  "/_app/pages/_locale_/activities/ghee-processing.svelte-b1df54e5.js",
   "/_app/pages/_locale_/gallery.svelte-f0c5f44f.js",
   "/_app/pages/_locale_/about/index.svelte-91d44c5d.js",
   "/_app/pages/_locale_/about/officers-directory.svelte-e7fb0160.js",
@@ -69,6 +70,8 @@ const files = [
   "/images/img-301.jpeg",
   "/images/img-302.jpeg",
   "/images/img-4.jpeg",
+  "/images/img-401.jpeg",
+  "/images/img-402.jpeg",
   "/images/img-5.jpeg",
   "/images/img-6.jpeg",
   "/images/img-7.jpeg",

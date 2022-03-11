@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7e78d556.js",
+    "file": "start-6d1a586e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -23,6 +23,7 @@
       "src/routes/[locale]/activities/beet-sugar-processing.svelte",
       "src/routes/[locale]/activities/fish-processing.svelte",
       "src/routes/[locale]/activities/food-processing.svelte",
+      "src/routes/[locale]/activities/ghee-processing.svelte",
       "src/routes/[locale]/gallery.svelte",
       "src/routes/[locale]/about/index.svelte",
       "src/routes/[locale]/about/officers-directory.svelte",
@@ -69,7 +70,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-7fc40221.js",
+    "file": "pages/_locale_/__layout.svelte-2dc7a7f8.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -195,6 +196,18 @@
   "src/routes/[locale]/activities/food-processing.svelte": {
     "file": "pages/_locale_/activities/food-processing.svelte-aa53306e.js",
     "src": "src/routes/[locale]/activities/food-processing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_config-9b6411d1.js",
+      "_Meta-1fb2756b.js"
+    ]
+  },
+  "src/routes/[locale]/activities/ghee-processing.svelte": {
+    "file": "pages/_locale_/activities/ghee-processing.svelte-b1df54e5.js",
+    "src": "src/routes/[locale]/activities/ghee-processing.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
