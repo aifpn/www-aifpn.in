@@ -31,11 +31,10 @@
                     { img: 104, name: "fruit processing", link: `/${$page.params.locale}/activities/food-processing` },
                     { img: 105, name: "grain processing", link: `/${$page.params.locale}/activities/food-processing` },
                     {
-                        img: 106,
-                        name: "industrial rendering",
-                        link: `/${$page.params.locale}/activities/food-processing`,
+                        img: 107,
+                        name: "beet sugar processing",
+                        link: `/${$page.params.locale}/activities/beet-sugar-processing`,
                     },
-                    { img: 107, name: "sugar industry", link: `/${$page.params.locale}/activities/food-processing` },
                     { img: 108, name: "slaughterhouse", link: `/${$page.params.locale}/activities/meat-processing` },
                     {
                         img: 109,
@@ -64,7 +63,7 @@
                         { ...data.content.a[3], name: "फल प्रसंस्करण" },
                         { ...data.content.a[4], name: "अनाज प्रसंस्करण" },
                         { ...data.content.a[5], name: "औद्योगिक प्रतिपादन" },
-                        { ...data.content.a[6], name: "चीनी उद्योग" },
+                        { ...data.content.a[6], name: "चुकंदर चीनी प्रसंस्करण" },
                         { ...data.content.a[7], name: "कसाईखाना" },
                         { ...data.content.a[8], name: "मांस पैकिंग संयंत्र" },
                         { ...data.content.a[9], name: "मसाला प्रसंस्करण" },

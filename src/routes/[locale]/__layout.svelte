@@ -68,6 +68,14 @@
                     name: "Staff List",
                     href: $t.localize("/about/staff-list"),
                 },
+                {
+                    name: "List of PA's",
+                    href: $t.localize("/about/list-of-pas"),
+                },
+                {
+                    name: "List of Drivers",
+                    href: $t.localize("/about/list-of-drivers"),
+                },
             ],
         },
         {
@@ -81,6 +89,10 @@
                 {
                     name: "Food Processing",
                     href: $t.localize("/activities/food-processing"),
+                },
+                {
+                    name: "Beet Sugar Processing",
+                    href: $t.localize("/activities/beet-sugar-processing"),
                 },
                 {
                     name: "Fish Processing",

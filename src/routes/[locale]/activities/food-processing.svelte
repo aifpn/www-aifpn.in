@@ -39,7 +39,7 @@
         keywords: $t.keywords,
     };
 
-    const images = [2, 4, 5, 6, 3, 9];
+    const images = [2, 4, 5, 6, 9];
 </script>
 
 <Meta metaData="{metaData}" />
