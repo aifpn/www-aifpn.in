@@ -102,6 +102,10 @@
                     name: "Fish Processing",
                     href: $t.localize("/activities/fish-processing"),
                 },
+                {
+                    name: "Meat Processing",
+                    href: $t.localize("/activities/meat-processing"),
+                },
             ],
         },
         {

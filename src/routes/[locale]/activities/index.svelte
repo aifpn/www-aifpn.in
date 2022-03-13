@@ -35,6 +35,16 @@
                         name: "beet sugar processing",
                         link: `/${$page.params.locale}/activities/beet-sugar-processing`,
                     },
+                    {
+                        img: 109,
+                        name: "slaughterhouse",
+                        link: `/${$page.params.locale}/activities/meat-processing`,
+                    },
+                    {
+                        img: 1091,
+                        name: "meat processing",
+                        link: `/${$page.params.locale}/activities/meat-processing`,
+                    },
                     { img: 110, name: "spice processing", link: `/${$page.params.locale}/activities/food-processing` },
                 ],
             },
@@ -56,11 +66,10 @@
                         { ...data.content.a[2], name: "सब्जी पैकिंग संयंत्र" },
                         { ...data.content.a[3], name: "फल प्रसंस्करण" },
                         { ...data.content.a[4], name: "अनाज प्रसंस्करण" },
-                        { ...data.content.a[5], name: "औद्योगिक प्रतिपादन" },
-                        { ...data.content.a[6], name: "चुकंदर चीनी प्रसंस्करण" },
-                        { ...data.content.a[7], name: "कसाईखाना" },
-                        { ...data.content.a[8], name: "मांस पैकिंग संयंत्र" },
-                        { ...data.content.a[9], name: "मसाला प्रसंस्करण" },
+                        { ...data.content.a[5], name: "चुकंदर चीनी प्रसंस्करण" },
+                        { ...data.content.a[6], name: "कसाईखाना" },
+                        { ...data.content.a[7], name: "मांस प्रसंस्करण" },
+                        { ...data.content.a[8], name: "मसाला प्रसंस्करण" },
                     ],
                 };
                 data.keywords = [

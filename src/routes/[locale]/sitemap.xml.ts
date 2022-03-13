@@ -20,6 +20,7 @@ export async function get({ params }) {
         "/activities/beet-sugar-processing",
         "/activities/ghee-processing",
         "/activities/fish-processing",
+        "/activities/meat-processing",
         "/recruitment/ldc",
         "/recruitment/deo",
         "/recruitment/pa",
