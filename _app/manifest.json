@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-02a85ff1.js",
+    "file": "start-627775b4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -256,7 +256,7 @@
     ]
   },
   "src/routes/[locale]/about/officers-directory.svelte": {
-    "file": "pages/_locale_/about/officers-directory.svelte-13ef44de.js",
+    "file": "pages/_locale_/about/officers-directory.svelte-ee52cc83.js",
     "src": "src/routes/[locale]/about/officers-directory.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
