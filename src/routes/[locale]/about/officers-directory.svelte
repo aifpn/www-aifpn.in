@@ -41,7 +41,7 @@
                         },
                     ],
                 },
-                { post: "Chief Technical Officer", persons: [{ name: "N/A", department: "Technology" }] },
+                //{ post: "Chief Technical Officer", persons: [{ name: "N/A", department: "Technology" }] },
                 { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "Finance" }] },
                 { post: "Chief Legal Officer", persons: [{ name: "N/A", department: "Legal" }] },
                 { post: "Chief Information Officer", persons: [{ name: "N/A", department: "IT" }] },
@@ -93,7 +93,7 @@
                         { name: "N/A", department: "Information Technology" },
                     ],
                 },
-                {
+                /*{
                     post: "Superintendent Engineer",
                     persons: [
                         { name: "N/A", department: "Civil" },
@@ -104,7 +104,7 @@
                         { name: "N/A", department: "Food Technology" },
                         { name: "N/A", department: "Information Technology" },
                     ],
-                },
+                },*/
             ],
             keywords: [
                 "about aifpn",
@@ -129,7 +129,7 @@
                             },
                         ],
                     },
-                    { post: "मुख्य तकनीकी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "प्रौद्योगिकी" }] },
+                    //{ post: "मुख्य तकनीकी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "प्रौद्योगिकी" }] },
                     { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "वित्त" }] },
                     { post: "मुख्य कानूनी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "कानूनी" }] },
                     { post: "मुख्य सूचना अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "आईटी" }] },
@@ -181,7 +181,7 @@
                             { name: "उपलब्ध नहीं है", department: "सूचना प्रौद्योगिकी" },
                         ],
                     },
-                    {
+                    /*{
                         post: "अधीक्षक अभियंता",
                         persons: [
                             { name: "उपलब्ध नहीं है", department: "सिविल" },
@@ -192,7 +192,7 @@
                             { name: "उपलब्ध नहीं है", department: "खाद्य प्रौद्योगिकी" },
                             { name: "उपलब्ध नहीं है", department: "सूचना प्रौद्योगिकी" },
                         ],
-                    },
+                    },*/
                 ];
                 data.keywords = [
                     "एआईएफपीएन के बारे में",
