@@ -81,7 +81,7 @@
                         { name: "N/A", department: "Legal" },
                     ],
                 },
-                {
+                /*{
                     post: "Chief Engineer",
                     persons: [
                         { name: "N/A", department: "Civil" },
@@ -93,7 +93,7 @@
                         { name: "N/A", department: "Information Technology" },
                     ],
                 },
-                /*{
+                {
                     post: "Superintendent Engineer",
                     persons: [
                         { name: "N/A", department: "Civil" },
@@ -169,7 +169,7 @@
                             { name: "उपलब्ध नहीं है", department: "कानूनी" },
                         ],
                     },
-                    {
+                    /*{
                         post: "मुख्य अभियंता",
                         persons: [
                             { name: "उपलब्ध नहीं है", department: "सिविल" },
@@ -181,7 +181,7 @@
                             { name: "उपलब्ध नहीं है", department: "सूचना प्रौद्योगिकी" },
                         ],
                     },
-                    /*{
+                    {
                         post: "अधीक्षक अभियंता",
                         persons: [
                             { name: "उपलब्ध नहीं है", department: "सिविल" },
