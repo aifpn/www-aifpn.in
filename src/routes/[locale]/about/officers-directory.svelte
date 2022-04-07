@@ -41,9 +41,9 @@
                         },
                     ],
                 },
-                //{ post: "Chief Technical Officer", persons: [{ name: "N/A", department: "Technology" }] },
+                /*{ post: "Chief Technical Officer", persons: [{ name: "N/A", department: "Technology" }] },
                 { post: "Chief Financial Officer", persons: [{ name: "N/A", department: "Finance" }] },
-                //{ post: "Chief Legal Officer", persons: [{ name: "N/A", department: "Legal" }] },
+                { post: "Chief Legal Officer", persons: [{ name: "N/A", department: "Legal" }] },
                 { post: "Chief Information Officer", persons: [{ name: "N/A", department: "IT" }] },
                 { post: "Chief Accountant Officer", persons: [{ name: "N/A", department: "Accounts" }] },
                 { post: "Chief Purchasing Officer", persons: [{ name: "N/A", department: "Purchase" }] },
@@ -59,7 +59,7 @@
                         { name: "N/A", department: "Legal" },
                     ],
                 },
-                /*{
+                {
                     post: "Deputy General Manager",
                     persons: [
                         { name: "N/A", department: "IT" },
@@ -69,7 +69,7 @@
                         { name: "N/A", department: "Purchase" },
                         { name: "N/A", department: "Legal" },
                     ],
-                },*/
+                },
                 {
                     post: "Assistant General Manager",
                     persons: [
@@ -81,7 +81,7 @@
                         { name: "N/A", department: "Legal" },
                     ],
                 },
-                /*{
+                {
                     post: "Chief Engineer",
                     persons: [
                         { name: "N/A", department: "Civil" },
@@ -129,9 +129,9 @@
                             },
                         ],
                     },
-                    //{ post: "मुख्य तकनीकी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "प्रौद्योगिकी" }] },
+                    /*{ post: "मुख्य तकनीकी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "प्रौद्योगिकी" }] },
                     { post: "मुख्य वित्तीय अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "वित्त" }] },
-                    //{ post: "मुख्य कानूनी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "कानूनी" }] },
+                    { post: "मुख्य कानूनी अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "कानूनी" }] },
                     { post: "मुख्य सूचना अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "आईटी" }] },
                     { post: "मुख्य लेखाकार अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "लेखा" }] },
                     { post: "मुख्य खरीद अधिकारी", persons: [{ name: "उपलब्ध नहीं है", department: "खरीद" }] },
@@ -147,7 +147,7 @@
                             { name: "उपलब्ध नहीं है", department: "कानूनी" },
                         ],
                     },
-                    /*{
+                    {
                         post: "उप महाप्रबंधक",
                         persons: [
                             { name: "उपलब्ध नहीं है", department: "आईटी" },
@@ -157,7 +157,7 @@
                             { name: "उपलब्ध नहीं है", department: "खरीद" },
                             { name: "उपलब्ध नहीं है", department: "कानूनी" },
                         ],
-                    },*/
+                    },
                     {
                         post: "सहायक महाप्रबंधक",
                         persons: [
@@ -169,7 +169,7 @@
                             { name: "उपलब्ध नहीं है", department: "कानूनी" },
                         ],
                     },
-                    /*{
+                    {
                         post: "मुख्य अभियंता",
                         persons: [
                             { name: "उपलब्ध नहीं है", department: "सिविल" },
