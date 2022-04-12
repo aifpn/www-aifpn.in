@@ -95,6 +95,10 @@
                     href: $t.localize("/activities/beet-sugar-processing"),
                 },
                 {
+                    name: "Milk Processing",
+                    href: $t.localize("/activities/milk-processing"),
+                },
+                {
                     name: "Ghee Processing",
                     href: $t.localize("/activities/ghee-processing"),
                 },
