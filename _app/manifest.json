@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f6f956d8.js",
+    "file": "start-086b3c4e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -25,6 +25,7 @@
       "src/routes/[locale]/activities/food-processing.svelte",
       "src/routes/[locale]/activities/ghee-processing.svelte",
       "src/routes/[locale]/activities/meat-processing.svelte",
+      "src/routes/[locale]/activities/milk-processing.svelte",
       "src/routes/[locale]/gallery.svelte",
       "src/routes/[locale]/about/index.svelte",
       "src/routes/[locale]/about/officers-directory.svelte",
@@ -71,7 +72,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-4d2d1582.js",
+    "file": "pages/_locale_/__layout.svelte-55d213af.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -228,6 +229,18 @@
       "_stores-d101fe06.js",
       "_config-9b6411d1.js",
       "_Meta-1fb2756b.js"
+    ]
+  },
+  "src/routes/[locale]/activities/milk-processing.svelte": {
+    "file": "pages/_locale_/activities/milk-processing.svelte-f6c32b49.js",
+    "src": "src/routes/[locale]/activities/milk-processing.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-08efcc10.js",
+      "_stores-d101fe06.js",
+      "_Meta-1fb2756b.js",
+      "_config-9b6411d1.js"
     ]
   },
   "src/routes/[locale]/gallery.svelte": {
