@@ -16,7 +16,11 @@
         } = {
             title: "Staff List",
             content: [
-                { t: "General Manager (IT)" },
+                { t: "General Manager" },
+                { t: "Assistant General Manager" },
+                { t: "Manager" },
+                { t: "Assistant Manager" },
+                /*{ t: "General Manager (IT)" },
                 { t: "General Manager (Sales)" },
                 { t: "General Manager (Finance)" },
                 { t: "General Manager (Accounts)" },
@@ -26,7 +30,7 @@
                 { t: "Assistant General Manager (Finance)" },
                 { t: "Assistant General Manager (Accounts)" },
                 { t: "Assistant General Manager (Purchase)" },
-                /*{ t: "Manager (IT)" },
+                { t: "Manager (IT)" },
                 { t: "Manager (Sales)" },
                 { t: "Manager (Finance)" },
                 { t: "Manager (Accounts)" },
@@ -89,7 +93,11 @@
             case "hi":
                 data.title = "स्टाफ सूची";
                 data.content = [
-                    { t: "महाप्रबंधक (आईटी)" },
+                    { t: "महाप्रबंधक" },
+                    { t: "सहायक महाप्रबंधक" },
+                    { t: "प्रबंधक" },
+                    { t: "सहायक प्रबंधक" },
+                    /*{ t: "महाप्रबंधक (आईटी)" },
                     { t: "महाप्रबंधक (बिक्री)" },
                     { t: "महाप्रबंधक (वित्त)" },
                     { t: "महाप्रबंधक (लेखा)" },
@@ -99,7 +107,7 @@
                     { t: "सहायक महाप्रबंधक (वित्त)" },
                     { t: "सहायक महाप्रबंधक (लेखा)" },
                     { t: "सहायक महाप्रबंधक (खरीद)" },
-                    /*{ t: "प्रबंधक (आईटी)" },
+                    { t: "प्रबंधक (आईटी)" },
                     { t: "प्रबंधक (बिक्री)" },
                     { t: "प्रबंधक (वित्त)" },
                     { t: "प्रबंधक (लेखा)" },
